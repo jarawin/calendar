@@ -16,11 +16,12 @@ const env = dotenv.config().parsed;
 
 const firebaseConfig = {
   apiKey: env.API_KEY,
-  authDomain: "calendar-12e83.firebaseapp.com",
-  projectId: "calendar-12e83",
-  storageBucket: "calendar-12e83.appspot.com",
-  messagingSenderId: "167246709510",
-  appId: "1:167246709510:web:d16b4be9fa9da427655487",
+  authDomain: "calendar-1b401.firebaseapp.com",
+  projectId: "calendar-1b401",
+  storageBucket: "calendar-1b401.appspot.com",
+  messagingSenderId: "459138432931",
+  appId: "1:459138432931:web:2450aa8262142489202416",
+  measurementId: "G-GMS1B69FQG",
 };
 console.log(firebaseConfig);
 
